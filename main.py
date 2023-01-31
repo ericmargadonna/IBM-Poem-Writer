@@ -1,36 +1,6 @@
 import string
 from PIL import Image, ImageDraw, ImageFont
 
-# Start with this and J A V to get Boat Patriot Twitter
-BPT_vocab_dict = {
-    "a": "patriot",
-    "b": "ensure",
-    "c": "wise",
-    "d": "board",
-    "e": "guards",
-    "f": "shirt",
-    "g": "hot",
-    "h": "spoiled",
-    "i": "this",
-    "j": "boat",
-    "k": "fire",
-    "l": "village",
-    "m": "blaze",
-    "n": "four",
-    "o": "dragon",
-    "p": "scene",
-    "q": "show",
-    "r": "baby",
-    "s": "audio",
-    "t": "gasp",
-    "u": "air",
-    "v": "twitter",
-    "w": "orcs",
-    "x": "fall",
-    "y": "doubt",
-    "z": "change"
-}
-
 def getFontsForOS(title_size, body_size):
     import os
     if os.name == "nt":
@@ -158,7 +128,7 @@ if __name__ == "__main__":
     print( "Enter 26 words, one for each letter of the alphabet:\n" )
 
     # Start by setting the vocabulary for your IBM poem
-    # This is done by entering a word for each letter of the alphabet
+    # This is done by entering a word for each letter of the alphabet 
     
     vocab_dict = {k: v  for k, v in 
                 zip(string.ascii_lowercase, 
